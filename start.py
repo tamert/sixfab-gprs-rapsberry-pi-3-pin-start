@@ -6,5 +6,6 @@ GPIO.setup(22, GPIO.OUT) ## Setup GPIO pin 7 to OUT
 
 GPIO.output(22, True) ## Turn on GPIO pin 7
 time.sleep(3) ## Wait
+
 GPIO.output(22, False) ## Switch off GPIO pin 7
 GPIO.cleanup()
